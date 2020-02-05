@@ -34,7 +34,8 @@ function Write-HostLog {
         [parameter(Mandatory=$true,ValueFromPipeline = $false)]
         [string[]]$Message,
         [ForegroundColor[]]$Colors,
-        [string]$divider = '::'
+        [string]$divider = '::',
+        [string]$template
     )
     
     begin {
@@ -54,7 +55,9 @@ function Write-HostLog {
             lightcyan = 96
             white = 97
         }
-
+        $templates =@{'good'=@('darkgrey','green','lightmagenta');'bad'=@('darkgrey','red','lightred')}
+        If ($template) {$colors = $templates[$template]}
+        
         $esc = "$([char]27)"
         #write-host "my chosen color is $colors and value is : $($colors[0].value__)"
         #$basiccolor = $esc+'['+$colors[0].value__+'m'
