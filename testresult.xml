@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="3" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2020-10-03" time="17:52:18">
+  <environment user="Greg-Admin" machine-name="GREGPC" cwd="C:\git\Write-HostLog" user-domain="GREGPC" nunit-version="2.5.8.0" clr-version="Unknown" os-version="10.0.19041" platform="Microsoft Windows 10 Pro|C:\WINDOWS|\Device\Harddisk3\Partition4" />
+  <culture-info current-culture="en-NL" current-uiculture="en-US" />
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Success" success="True" time="0.1167" asserts="0" description="Pester">
+    <results>
+      <test-suite type="TestFixture" name="C:\git\Write-HostLog\Write-HostLog.Tests.ps1" executed="True" result="Success" success="True" time="0.1167" asserts="0" description="C:\git\Write-HostLog\Write-HostLog.Tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Write-HostLog Tests" executed="True" result="Success" success="True" time="0.1079" asserts="0" description="Write-HostLog Tests">
+            <results>
+              <test-suite type="TestFixture" name="General tests" executed="True" result="Success" success="True" time="0.0798" asserts="0" description="General tests">
+                <results>
+                  <test-suite type="TestFixture" name="Additional test" executed="True" result="Success" success="True" time="0.0397" asserts="0" description="Additional test">
+                    <results>
+                      <test-case description="Checking if there was output on console" name="Write-HostLog Tests.General tests.Additional test.Checking if there was output on console" time="0.0019" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Checking if there was error thrown" name="Write-HostLog Tests.General tests.Additional test.Checking if there was error thrown" time="0.0023" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                  <test-case description="1=1" name="Write-HostLog Tests.General tests.1=1" time="0.0016" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
