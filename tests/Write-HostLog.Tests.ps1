@@ -21,6 +21,9 @@ Describe "Write-HostLog Tests" {
        It 'Checking if there was error thrown' {
         {write-hostlog -message "aaa"} | should -Throw
        }
+        It 'Dla Wojtka' {
+        {write-hostlog -message "aaa"} | should -Throw
+       }
     }
  }
 }
