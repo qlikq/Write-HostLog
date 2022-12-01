@@ -75,6 +75,5 @@ function Write-HostLog {
     
     end {
         Write-Host $NewMessage
-        write-host 'a'
     }
 }
