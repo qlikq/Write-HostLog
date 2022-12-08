@@ -5,3 +5,4 @@
 
 Logging for powershell
 'abc'
+'def'
